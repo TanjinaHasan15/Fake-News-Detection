@@ -79,13 +79,8 @@ joblib
 
 ---
 
-###  Example Predictions:
 
-``python
-example_real = "Government announces new policy to improve education system."
-example_fake = "Celebrity claims drinking hot water cures all diseases."
 
-print("Real Example →", model.predict(vectorizer.transform([example_real]))[0])
-print("Fake Example →", model.predict(vectorizer.transform([example_fake]))[0])
+
 
 
