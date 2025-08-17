@@ -40,7 +40,7 @@ This dataset provides a balanced set of real and fake news, making it suitable f
 
 Make sure you have the following libraries installed:
 
-```bash
+``bash
 streamlit
 scikit-learn
 pandas
@@ -81,10 +81,11 @@ joblib
 
 ###  Example Predictions:
 
-```python
+``python
 example_real = "Government announces new policy to improve education system."
 example_fake = "Celebrity claims drinking hot water cures all diseases."
 
 print("Real Example →", model.predict(vectorizer.transform([example_real]))[0])
 print("Fake Example →", model.predict(vectorizer.transform([example_fake]))[0])
+
 
